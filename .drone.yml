@@ -8,5 +8,6 @@ publish:
     username: cabhi
     password: Xampp_11
     email: abhishek.ch.3@gmail.com
+    debug: true
     tags:
       - latest
