@@ -1,7 +1,9 @@
-build:
-  image: node:6
-  pull: true
-  environment:
-    - CGO_ENABLED=0
-  commands:
-    - npm install
+docker:
+  image: plugins/docker
+  registry: https://gitlab.com
+  repo: registry.gitlab.com/cabhi/drone-test1
+  username: cabhi
+  password: Xampp_11
+  email: abhishek.ch.3@gmail.com
+  tags:
+    - latest
