@@ -2,7 +2,7 @@
 publish:
   docker:
     image: plugins/docker 
-    storage_driver: overlay
+    storage_driver: aufs
     registry: https://gitlab.com
     repo: registry.gitlab.com/cabhi/drone-test1
     username: cabhi
