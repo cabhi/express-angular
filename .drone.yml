@@ -9,5 +9,7 @@ publish:
     password: Xampp_11
     email: abhishek.ch.3@gmail.com
     debug: true
+    environment: 
+      - DOCKER_LAUNCH_DEBUG=true 
     tags:
       - latest
